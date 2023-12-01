@@ -1,2 +1,3 @@
 # ProyectoFinalSistemasOperativos
-Integrantes: Jose Holguin y Jorge Parra
+Integrantes: Jose Ricardo Holguin y Jorge Parra
+
