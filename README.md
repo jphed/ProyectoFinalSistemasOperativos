@@ -127,10 +127,67 @@ Es la manera en que un CPU ejecuta varios procesos al mismo tiempo, asignándole
 -	Megabyte (Mb) – 1024 Kb
 -	Gigabyte (Gb) – 1024 Mb
 -	Terabyte (Tb) – 1024 Gb
-# Jerarquía de memoria<br><br>
+
+
+## JERARQUIA DE MEMORIA<br>
+La jerarquía de memoria es una estructura organizativa que se encuentra en casi todas las computadoras y sistemas informáticos. Esta jerarquía consiste en diferentes niveles de memoria con diferentes características en términos de capacidad<br><br>
+
+![img](img/memoria.PNG)
+
+- RAM - Random Access Memory
+- Memoria caché
+- Memoria secundaria o de almacenamiento
+
+### Volatil y no volatil
+
+*Memoria Volátil:*
+- La memoria volátil pierde su contenido cuando se corta la energía
+
+*Memoria No Volátil:*
+-  La memoria no volátil retiene la información incluso cuando no hay energía
+<br><br>
+
 
 # Ejemplos de Virtualización del CPU, Virtualización de Memoria, Concurrencia, Persistencia<br><br>
 
-# Personajes importantes para los sistemas operativos como Linus Torvalds y Denis Ritchie.<br><br>
+## Virtualización del CPU:
+- Un ejemplo de la virtualizacion del cpu es VirtualBox que permitan ejecutar varios sistemas operativos en un solo hardware fisico y los recursos del cpu se virtualizan y puedes asigar determinados nucleos, memoria y almacenamiento a estos <br><br>
+![img](img/vb.PNG)
+
+## Virtualización de Memoria:
+- La virtualización de memoria se utiliza en sistemas operativos para asignar direcciones de memoria virtuales a direcciones físicas reales. Por ejemplo, cuando un programa se ejecuta, puede tener acceso a un espacio de memoria mucho mayor que el disponible físicamente <br>
+## Concurrencia:
+- Un ejemplo común de concurrencia es un sistema operativo multitarea que ejecuta múltiples procesos al mismo tiempo. Por ejemplo, un sistema operativo permite a un usuario escuchar música, navegar por internet y editar un documento
+
+## Persistencia:
+- En el contexto de las bases de datos, la persistencia se refiere a la capacidad de almacenar datos de manera permanente incluso después de que el programa o el sistema se apaguen
+- Ejemplo MySQL
+<br><br>
+
+# Personajes importantes para los sistemas operativos<br><br>
+
+## Linus Torvalds
+- Linus Torvalds es reconocido por haber creado el kernel del sistema operativo Linux, una de las bases fundamentales de muchos sistemas operativos modernos<br><br>
+![img](img/linus.jpg)
+
+## Denis Ritchie
+- Denis Ritchie es conocido por ser el creador del lenguaje de programación C y por ser uno de los desarrolladores fundamentales del sistema operativo UNIX. Su trabajo en el diseño del lenguaje C y su contribución al desarrollo de UNIX<br><br>
+![img](img/dennis.jpg)
 
 # Instrucciones para instalar Linux o como instalar una nueva versión de Mac<br><br>
+
+## Instalar linux
+- Descargar una distribución de Linux: Descarga la imagen ISO de la distribución que elijas
+- Crear un medio de instalación: Graba la imagen ISO en un USB o DVD
+- Arrancar desde el medio de instalación: Configura la BIOS para arrancar desde el USB o DVD
+- Instalar Linux: Sigue las instrucciones del asistente de instalación
+- Configurar y finalizar: Configura tu cuenta y ajustes post-instalación<br><br>
+![img](img/linux.jpg)
+
+## Actualización de macOS:
+- Respalda tus datos: Haz una copia de seguridad de tus datos
+- Verifica la compatibilidad: Asegúrate de la compatibilidad con tu Mac
+- Descarga la nueva versión de macOS: Desde la App Store, descarga la versión de macOS
+- Iniciar la instalación: Sigue las instrucciones para iniciar la actualización.
+- Configura y finaliza: Realiza la configuración inicial y restaura datos si es necesario<br><br>
+![img](img/macos.jpg)
